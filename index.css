@@ -1,0 +1,40 @@
+:root {
+    /* Fondos */
+    --background: #050505;
+    --background-secondary: #111111;
+    --surface: #1A1A1A;
+
+    /* Bordes */
+    --border: #2D2D2D;
+
+    /* Texto */
+    --text: #F2F2F2;
+    --text-secondary: #9E9E9E;
+
+    /* Colores principales */
+    --primary: #8B0000;
+    --primary-hover: #C1121F;
+
+    /* Extras */
+    --accent: #B8B8B8;
+    --shadow: #000000;
+
+    --font-title: "Swiss 911 Compressed", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+    --font-subtitle: "Times New Roman", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {background-color: var(--background);width: 100%;}
+
+header{background-color: var(--background-secondary);display:flex;color: var(--text);justify-content: space-between;height: 90px;align-items: center; padding: 0px 20px 0px 20px;letter-spacing: 1.5px;}
+
+span {font-size: 270%; color: var(--accent);font-family:var(--font-subtitle);}
+
+a{text-decoration: none; color: var(--border);font-size: 170%;transition: all 0.5s ease; font-family: var(--font-subtitle);}
+
+a:hover{color: var(--text-secondary);text-shadow: 1px 1px 5px var(--background-secondary);}
