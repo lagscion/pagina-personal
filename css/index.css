@@ -33,7 +33,7 @@ html,body {background-color: var(--background);width: 100%;}
 
 header{background-color: var(--background-secondary);display:flex;color: var(--text);justify-content: space-between;height: 90px;align-items: center; padding: 0px 20px 0px 20px;letter-spacing: 1.5px;}
 
-span {font-size: 290%; color: var(--accent);font-family:var(--font-subtitle);}
+.titulos {font-size: 290%; color: var(--text);font-family:var(--font-subtitle);}
 
 a{text-decoration: none; color: var(--border);font-size: 190%;transition: all 0.5s ease; font-family: var(--font-subtitle);}
 
@@ -42,19 +42,14 @@ a:hover{color: var(--text-secondary);text-shadow: 1px 1px 5px var(--background-s
 nav{display: flex;justify-content: center;align-items: center;height: 300px;color: var(--primary-hover);background-image: url('../images/fondo.jpg');background-size: cover;background-position: center;background-repeat: no-repeat;      }
 
 #only {
-    font-size: 270%;
+    font-size: 300%;
     color: var(--primary-hover);
     font-family: var(--font-subtitle);
-    padding: 20px 60px;
-    /* Aumentamos un poco el padding lateral para darle espacio al desvanecido */
-
-    /* El truco: solo el fondo transparente y el blur */
+    padding: 30px 70px;
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-
-    /* --- EL TRUCO PARA ELIMINAR LOS BORDES LATERALES --- */
-    /* Transparente en el extremo izquierdo (0%), negro sólido en el centro (20% al 80%), transparente en el extremo derecho (100%) */
     mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
 }
+main{background-color: var(--background-secondary);margin: 0px 100px 0px 100px }
