@@ -111,10 +111,10 @@ main{
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin: 0 20% 0 20%;
+    margin: 0 15% 0 15%;
     gap: 200px;
     background-color: var(--surface);
-    padding: 5%;
+    padding: 10%;
 
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
     mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
@@ -122,7 +122,7 @@ main{
 
 
 
-img{width: 130px;height: auto;}
+img{width: 250px;height: 295px;opacity: 0.8;}
 
 .descripcion{font-size: 20px;margin: 3%;}
 
@@ -132,5 +132,28 @@ body{
     gap: 20px;
 }
 
-.tarjetas{background-color: var(--border);display: flex;justify-content: center;flex-direction: column;text-align: center;align-items: center;height: 400px;color: var(--text);transition: all 0.5s ease;width: 320px;}
-.tarjetas:hover{transform: scale(1.05);cursor: pointer;}
+.tarjetas {
+    background: rgba(255, 255, 255, 0.1);
+    /* Fondo semitransparente */
+    backdrop-filter: blur(10px);
+    /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px);
+    /* Compatibilidad con navegadores WebKit */
+    /* Borde semitransparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Sombra para dar profundidad */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    color: var(--text);
+    transition: all 0.5s ease;
+    width: 320px;
+    border: solid 4px var(--background-secondary) ;
+
+    /* Efecto de desvanecido en los bordes */
+}
+.tarjetas:hover{transform: scale(1.05);cursor: pointer;border: solid 1px var(--surface);}
+footer{background-color: var(--background-secondary);height: 150px;align-items: center;display: flex;justify-content: center;}
