@@ -134,12 +134,15 @@ body{
     mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
     gap: 20px;
-    background-image: url('../images/2b6b0ed833269352312d193f5e6cd4c6.jpg');
+    background-image: url('../images/dedsec.gif');
+    background-size: 150px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .tarjetas {
     background: rgba(255, 255, 255, 0.1);
-    /* Fondo semitransparente */
+    /* Fondo semitransparente */    
     backdrop-filter: blur(10px);
     /* Desenfoque del fondo */
     -webkit-backdrop-filter: blur(10px);
