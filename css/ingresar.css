@@ -1,0 +1,10 @@
+body{
+    background-image: url('../images/join.gif');
+    background-size: 200px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    height: 98vh;
+}
+
+span{display:flex; color:  aliceblue;justify-content: center;align-items: center;justify-content: center;text-transform: uppercase;font-size: 10vh;}
