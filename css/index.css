@@ -122,7 +122,6 @@ main{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin: 0 15% 0 15%;
     gap: 200px;
-    background-color: var(--surface);
     padding: 10%;
 
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
@@ -131,7 +130,7 @@ main{
 
 
 
-img{width: 250px;height: 295px;opacity: 0.8;}
+img{width: 250px;height: 295px}
 
 .descripcion{font-size: 20px;margin: 3%;}
 
@@ -139,10 +138,10 @@ body{
     mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
     gap: 20px;
-    background-image: url('../images/dedsec.gif');
+    background-image: url('../images/9cc1db91d61c53eb9de2989070e6ac38.gif');
     background-size: 150px;
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .tarjetas {
