@@ -97,8 +97,7 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 50px 0 50px  0;
-    width: 100%;
+    width: 80%;
 }  
 
 #only {
@@ -130,7 +129,7 @@ main{
 
 
 
-img{width: 250px;height: 295px}
+img{width: 250px;height: auto}
 
 .descripcion{font-size: 20px;margin: 3%;}
 

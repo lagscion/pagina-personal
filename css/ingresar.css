@@ -2,9 +2,18 @@ body{
     background-image: url('../images/join.gif');
     background-size: 200px;
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
 
-    height: 98vh;
+    height: fit-content;
 }
+svg{color: aliceblue;transition: all 0.5s ease;}
+header{color: aliceblue;text-align: center;margin: 5%;font-size: 300%;transition: all 0.5s ease;}
 
-span{display:flex; color:  aliceblue;justify-content: center;align-items: center;justify-content: center;text-transform: uppercase;font-size: 10vh;}
+span{transition: all 0.5s ease ;}
+header:hover{color:  chartreuse;}
+nav{display:flex; justify-content: center;color: aliceblue;font-size: 180%;flex-direction: column;align-items: center;}
+span:hover{color: chartreuse ;}
+#ingr{background-color: transparent;height: 40px;width: 185px;border: none;font-size: 30px;color: aliceblue;transition: all 0.5s ease;justify-content: center;align-items: center;text-align: center;}  
+#ingr:hover{transform: scale(1.09);cursor: pointer;color: chartreuse;border: 2px aliceblue solid;} 
+.ingresos{height: 28px;}
+svg:hover{color: chartreuse;}
